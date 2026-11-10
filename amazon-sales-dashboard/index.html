@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Amazon Sales Report</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="data/data.js"></script>
+<style>
+:root{--bg:#f3f4f6;--card:#fff;--tx:#1f2937;--bd:#d1d5db;--ac:#118dff}
+@media(prefers-color-scheme:dark){:root{--bg:#111827;--card:#1f2937;--tx:#f3f4f6;--bd:#374151}}
+*{box-sizing:border-box}body{margin:0;padding:10px;background:var(--bg);color:var(--tx);font-family:Segoe UI,Arial,sans-serif}
+.card{background:var(--card);border:1px solid var(--bd);padding:10px}
+h1{text-align:center;margin:0;color:#0b4a8f;text-decoration:underline;font-size:26px}
+.grid{display:grid;gap:8px;margin-top:8px}.kpis{grid-template-columns:repeat(4,1fr) 1.2fr 1.2fr}
+.kpi b{font-size:30px;display:block}.kpi span{color:#6b7280}
+.sl{max-height:110px;overflow:auto}.sl label{display:block;margin:3px 0;cursor:pointer}
+.row{grid-template-columns:1fr 1fr 1.2fr}.h{height:300px;position:relative}.tall{grid-row:span 2;height:620px}
+h3{margin:0 0 6px;font-size:15px}
+@media(max-width:900px){.kpis,.row{grid-template-columns:1fr 1fr}.tall{grid-row:auto}}
+</style></head><body>
+<div class="card"><h1>AMAZON SALES REPORT</h1></div>
+<div class="grid kpis">
+<div class="card kpi"><b id="q"></b><span>Sum of Quantity</span></div>
+<div class="card kpi"><b id="s"></b><span>Sum of Sales</span></div>
+<div class="card kpi"><b id="p"></b><span>Sum of Profit</span></div>
+<div class="card kpi"><b id="sh"></b><span>Sum of Shipping Cost</span></div>
+<div class="card"><h3>Category</h3><div class="sl" id="fc"></div></div>
+<div class="card"><h3>Market</h3><div class="sl" id="fm"></div></div></div>
+<div class="grid row">
+<div class="card"><h3>Sum of Sales by Ship Mode</h3><div class="h"><canvas id="c1"></canvas></div></div>
+<div class="card"><h3>Sum of Sales by Country (Top 5)</h3><div class="h"><canvas id="c2"></canvas></div></div>
+<div class="card tall"><h3>Sum of Sales by City</h3><div class="h" style="height:570px"><canvas id="c3"></canvas></div></div>
+<div class="card"><h3>Sum of Sales by Category</h3><div class="h"><canvas id="c4"></canvas></div></div>
+<div class="card"><h3>Sum of Sales by Market</h3><div class="h"><canvas id="c5"></canvas></div></div></div>
+<script>
+const uniq=k=>[...new Set(DATA.map(r=>r[k]))];
+const sel={Category:new Set(),Market:new Set()};
+const fmt=n=>n>=1e6?(n/1e6).toFixed(2)+"M":n>=1e3?(n/1e3).toFixed(2)+"K":n.toFixed(0);
+const PAL=["#118dff","#12239e","#e66c37","#6b007b","#e044a7","#744ec2","#d9b300"];
+function filters(id,key){const el=document.getElementById(id);
+ uniq(key).forEach(v=>{const l=document.createElement("label");l.innerHTML=`<input type="checkbox"> ${v}`;
+ l.firstChild.onchange=e=>{e.target.checked?sel[key].add(v):sel[key].delete(v);render()};el.appendChild(l)})}
+filters("fc","Category");filters("fm","Market");
+function group(rows,k){const m={};rows.forEach(r=>m[r[k]]=(m[r[k]]||0)+r.Sales);return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+const charts={};
+function draw(id,cfg){charts[id]?.destroy();charts[id]=new Chart(document.getElementById(id),cfg)}
+function bar(id,g,color){draw(id,{type:"bar",data:{labels:g.map(x=>x[0]),datasets:[{data:g.map(x=>x[1]),backgroundColor:color}]},
+ options:{indexAxis:"y",maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmt(c.raw)}}},scales:{x:{ticks:{callback:fmt}}}}})}
+function donut(id,g,type){draw(id,{type,data:{labels:g.map(x=>x[0]),datasets:[{data:g.map(x=>x[1]),backgroundColor:PAL}]},
+ options:{maintainAspectRatio:false,plugins:{legend:{position:"right"},tooltip:{callbacks:{label:c=>`${c.label}: ${fmt(c.raw)}`}}}}})}
+function render(){
+ const rows=DATA.filter(r=>(!sel.Category.size||sel.Category.has(r.Category))&&(!sel.Market.size||sel.Market.has(r.Market)));
+ const sum=k=>rows.reduce((a,r)=>a+r[k],0);
+ q.textContent=fmt(sum("Quantity"));s.textContent=fmt(sum("Sales"));p.textContent=fmt(sum("Profit"));sh.textContent=fmt(sum("ShippingCost"));
+ bar("c1",group(rows,"ShipMode"),"#118dff");bar("c2",group(rows,"Country").slice(0,5),"#118dff");
+ bar("c3",group(rows,"City").slice(0,20),"#118dff");donut("c4",group(rows,"Category"),"pie");donut("c5",group(rows,"Market"),"doughnut")}
+render();
+</script></body></html>

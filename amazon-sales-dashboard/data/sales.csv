@@ -1,0 +1,349 @@
+City,Country,Market,Category,ShipMode,Sales,Quantity,Profit,ShippingCost
+New York City,United States,US,Technology,Standard Class,126124.52,1780,21441.17,9203.76
+New York City,United States,US,Technology,Second Class,39738.02,561,6755.46,2899.83
+New York City,United States,US,Technology,First Class,32478.08,458,5521.27,3160.06
+New York City,United States,US,Technology,Same Day,11608.16,164,1973.39,1129.45
+New York City,United States,US,Furniture,Standard Class,118444.13,1672,11844.41,8643.3
+New York City,United States,US,Furniture,Second Class,37487.01,529,3748.7,2735.56
+New York City,United States,US,Furniture,First Class,23716.99,335,2371.7,2307.62
+New York City,United States,US,Furniture,Same Day,11744.41,166,1174.44,1142.71
+New York City,United States,US,Office Supplies,Standard Class,90219.45,1274,10826.33,6583.64
+New York City,United States,US,Office Supplies,Second Class,34222.99,483,4106.76,2497.38
+New York City,United States,US,Office Supplies,First Class,21288.49,301,2554.62,2071.33
+New York City,United States,US,Office Supplies,Same Day,9189.19,130,1102.7,894.09
+Los Angeles,United States,US,Technology,Standard Class,85095.99,1201,14466.32,6209.76
+Los Angeles,United States,US,Technology,Second Class,31868.34,450,5417.62,2325.55
+Los Angeles,United States,US,Technology,First Class,18022.94,254,3063.9,1753.6
+Los Angeles,United States,US,Technology,Same Day,7983.85,113,1357.25,776.81
+Los Angeles,United States,US,Furniture,Standard Class,79548.62,1123,7954.86,5804.95
+Los Angeles,United States,US,Furniture,Second Class,28970.14,409,2897.01,2114.06
+Los Angeles,United States,US,Furniture,First Class,18291.4,258,1829.14,1779.72
+Los Angeles,United States,US,Furniture,Same Day,7424.46,105,742.45,722.39
+Los Angeles,United States,US,Office Supplies,Standard Class,78279.22,1105,9393.51,5712.32
+Los Angeles,United States,US,Office Supplies,Second Class,19725.45,278,2367.05,1439.44
+Los Angeles,United States,US,Office Supplies,First Class,17700.42,250,2124.05,1722.22
+Los Angeles,United States,US,Office Supplies,Same Day,6417.01,91,770.04,624.36
+Seattle,United States,US,Technology,Standard Class,50325.27,710,8555.3,3672.42
+Seattle,United States,US,Technology,Second Class,16626.0,235,2826.42,1213.26
+Seattle,United States,US,Technology,First Class,12390.22,175,2106.34,1205.55
+Seattle,United States,US,Technology,Same Day,6168.08,87,1048.57,600.14
+Seattle,United States,US,Furniture,Standard Class,44828.68,633,4482.87,3271.31
+Seattle,United States,US,Furniture,Second Class,16930.32,239,1693.03,1235.47
+Seattle,United States,US,Furniture,First Class,12050.12,170,1205.01,1172.45
+Seattle,United States,US,Furniture,Same Day,4767.94,67,476.79,463.91
+Seattle,United States,US,Office Supplies,Standard Class,44953.9,635,5394.47,3280.45
+Seattle,United States,US,Office Supplies,Second Class,12835.35,181,1540.24,936.64
+Seattle,United States,US,Office Supplies,First Class,8974.86,127,1076.98,873.24
+Seattle,United States,US,Office Supplies,Same Day,4040.96,57,484.92,393.18
+San Francisco,United States,US,Technology,Standard Class,59386.84,838,10095.76,4333.67
+San Francisco,United States,US,Technology,Second Class,18371.35,259,3123.13,1340.62
+San Francisco,United States,US,Technology,First Class,12412.56,175,2110.13,1207.72
+San Francisco,United States,US,Technology,Same Day,5778.39,82,982.33,562.23
+San Francisco,United States,US,Furniture,Standard Class,48881.0,690,4888.1,3567.02
+San Francisco,United States,US,Furniture,Second Class,15533.06,219,1553.31,1133.5
+San Francisco,United States,US,Furniture,First Class,12589.65,178,1258.97,1224.95
+San Francisco,United States,US,Furniture,Same Day,5253.7,74,525.37,511.18
+San Francisco,United States,US,Office Supplies,Standard Class,40916.68,578,4910.0,2985.84
+San Francisco,United States,US,Office Supplies,Second Class,15102.87,213,1812.34,1102.11
+San Francisco,United States,US,Office Supplies,First Class,10419.29,147,1250.31,1013.78
+San Francisco,United States,US,Office Supplies,Same Day,4930.68,70,591.68,479.75
+Philadelphia,United States,US,Technology,Standard Class,54741.61,773,9306.07,3994.69
+Philadelphia,United States,US,Technology,Second Class,15985.97,226,2717.61,1166.55
+Philadelphia,United States,US,Technology,First Class,13671.94,193,2324.23,1330.25
+Philadelphia,United States,US,Technology,Same Day,4534.78,64,770.91,441.23
+Philadelphia,United States,US,Furniture,Standard Class,43963.2,621,4396.32,3208.15
+Philadelphia,United States,US,Furniture,Second Class,16182.36,228,1618.24,1180.89
+Philadelphia,United States,US,Furniture,First Class,9418.44,133,941.84,916.4
+Philadelphia,United States,US,Furniture,Same Day,4492.1,63,449.21,437.07
+Philadelphia,United States,US,Office Supplies,Standard Class,34720.48,490,4166.46,2533.68
+Philadelphia,United States,US,Office Supplies,Second Class,14107.77,199,1692.93,1029.5
+Philadelphia,United States,US,Office Supplies,First Class,10147.19,143,1217.66,987.3
+Philadelphia,United States,US,Office Supplies,Same Day,4117.28,58,494.07,400.6
+Houston,United States,US,Technology,Standard Class,34191.23,483,5812.51,2495.06
+Houston,United States,US,Technology,Second Class,9670.89,137,1644.05,705.72
+Houston,United States,US,Technology,First Class,7590.37,107,1290.36,738.53
+Houston,United States,US,Technology,Same Day,3159.97,45,537.2,307.46
+Houston,United States,US,Furniture,Standard Class,27690.32,391,2769.03,2020.66
+Houston,United States,US,Furniture,Second Class,8895.62,126,889.56,649.15
+Houston,United States,US,Furniture,First Class,6953.38,98,695.34,676.55
+Houston,United States,US,Furniture,Same Day,3064.97,43,306.5,298.22
+Houston,United States,US,Office Supplies,Standard Class,23986.21,339,2878.35,1750.36
+Houston,United States,US,Office Supplies,Second Class,8454.84,119,1014.58,616.98
+Houston,United States,US,Office Supplies,First Class,4897.18,69,587.66,476.49
+Houston,United States,US,Office Supplies,Same Day,2563.53,36,307.62,249.43
+Manila,Philippines,APAC,Technology,Standard Class,64172.2,906,10909.27,4682.88
+Manila,Philippines,APAC,Technology,Second Class,23517.03,332,3997.89,1716.12
+Manila,Philippines,APAC,Technology,First Class,15725.51,222,2673.34,1530.06
+Manila,Philippines,APAC,Technology,Same Day,5748.79,81,977.29,559.35
+Manila,Philippines,APAC,Furniture,Standard Class,52231.26,737,5223.13,3811.5
+Manila,Philippines,APAC,Furniture,Second Class,18940.25,267,1894.03,1382.14
+Manila,Philippines,APAC,Furniture,First Class,10812.15,153,1081.21,1052.0
+Manila,Philippines,APAC,Furniture,Same Day,5346.28,75,534.63,520.18
+Manila,Philippines,APAC,Office Supplies,Standard Class,43533.34,615,5224.0,3176.79
+Manila,Philippines,APAC,Office Supplies,Second Class,14264.77,201,1711.77,1040.95
+Manila,Philippines,APAC,Office Supplies,First Class,9788.56,138,1174.63,952.41
+Manila,Philippines,APAC,Office Supplies,Same Day,5223.87,74,626.86,508.27
+Sydney,Australia,APAC,Technology,Standard Class,45521.08,643,7738.58,3321.84
+Sydney,Australia,APAC,Technology,Second Class,15779.45,223,2682.51,1151.48
+Sydney,Australia,APAC,Technology,First Class,11559.49,163,1965.11,1124.72
+Sydney,Australia,APAC,Technology,Same Day,5692.31,80,967.69,553.85
+Sydney,Australia,APAC,Furniture,Standard Class,39399.28,556,3939.93,2875.11
+Sydney,Australia,APAC,Furniture,Second Class,14794.41,209,1479.44,1079.6
+Sydney,Australia,APAC,Furniture,First Class,10672.38,151,1067.24,1038.4
+Sydney,Australia,APAC,Furniture,Same Day,5025.4,71,502.54,488.96
+Sydney,Australia,APAC,Office Supplies,Standard Class,44149.23,623,5297.91,3221.73
+Sydney,Australia,APAC,Office Supplies,Second Class,14896.53,210,1787.58,1087.05
+Sydney,Australia,APAC,Office Supplies,First Class,8776.1,124,1053.13,853.9
+Sydney,Australia,APAC,Office Supplies,Same Day,3926.63,55,471.2,382.05
+Melbourne,Australia,APAC,Technology,Standard Class,34332.38,485,5836.5,2505.36
+Melbourne,Australia,APAC,Technology,Second Class,13327.83,188,2265.73,972.58
+Melbourne,Australia,APAC,Technology,First Class,9514.04,134,1617.39,925.7
+Melbourne,Australia,APAC,Technology,Same Day,3209.69,45,545.65,312.3
+Melbourne,Australia,APAC,Furniture,Standard Class,28484.67,402,2848.47,2078.63
+Melbourne,Australia,APAC,Furniture,Second Class,9670.74,137,967.07,705.71
+Melbourne,Australia,APAC,Furniture,First Class,6772.57,96,677.26,658.96
+Melbourne,Australia,APAC,Furniture,Same Day,3140.69,44,314.07,305.58
+Melbourne,Australia,APAC,Office Supplies,Standard Class,28957.13,409,3474.86,2113.11
+Melbourne,Australia,APAC,Office Supplies,Second Class,8731.89,123,1047.83,637.2
+Melbourne,Australia,APAC,Office Supplies,First Class,5601.69,79,672.2,545.03
+Melbourne,Australia,APAC,Office Supplies,Same Day,2751.73,39,330.21,267.74
+Brisbane,Australia,APAC,Technology,Standard Class,34445.12,486,5855.67,2513.58
+Brisbane,Australia,APAC,Technology,Second Class,12188.29,172,2072.01,889.42
+Brisbane,Australia,APAC,Technology,First Class,9502.41,134,1615.41,924.57
+Brisbane,Australia,APAC,Technology,Same Day,3790.02,54,644.3,368.76
+Brisbane,Australia,APAC,Furniture,Standard Class,31695.81,447,3169.58,2312.96
+Brisbane,Australia,APAC,Furniture,Second Class,10887.39,154,1088.74,794.49
+Brisbane,Australia,APAC,Furniture,First Class,7750.61,109,775.06,754.12
+Brisbane,Australia,APAC,Furniture,Same Day,2732.78,39,273.28,265.89
+Brisbane,Australia,APAC,Office Supplies,Standard Class,31583.48,446,3790.02,2304.76
+Brisbane,Australia,APAC,Office Supplies,Second Class,10190.62,144,1222.87,743.65
+Brisbane,Australia,APAC,Office Supplies,First Class,7320.08,103,878.41,712.23
+Brisbane,Australia,APAC,Office Supplies,Same Day,3072.33,43,368.68,298.93
+Gold Coast,Australia,APAC,Technology,Standard Class,34693.84,490,5897.95,2531.74
+Gold Coast,Australia,APAC,Technology,Second Class,11588.28,164,1970.01,845.64
+Gold Coast,Australia,APAC,Technology,First Class,7370.35,104,1252.96,717.12
+Gold Coast,Australia,APAC,Technology,Same Day,3729.57,53,634.03,362.88
+Gold Coast,Australia,APAC,Furniture,Standard Class,27405.97,387,2740.6,1999.91
+Gold Coast,Australia,APAC,Furniture,Second Class,9151.41,129,915.14,667.81
+Gold Coast,Australia,APAC,Furniture,First Class,6718.3,95,671.83,653.68
+Gold Coast,Australia,APAC,Furniture,Same Day,2835.3,40,283.53,275.87
+Gold Coast,Australia,APAC,Office Supplies,Standard Class,26849.77,379,3221.97,1959.32
+Gold Coast,Australia,APAC,Office Supplies,Second Class,8139.15,115,976.7,593.94
+Gold Coast,Australia,APAC,Office Supplies,First Class,5594.07,79,671.29,544.29
+Gold Coast,Australia,APAC,Office Supplies,Same Day,2525.24,36,303.03,245.7
+Perth,Australia,APAC,Technology,Standard Class,27055.66,382,4599.46,1974.35
+Perth,Australia,APAC,Technology,Second Class,9824.12,139,1670.1,716.9
+Perth,Australia,APAC,Technology,First Class,6149.58,87,1045.43,598.34
+Perth,Australia,APAC,Technology,Same Day,3418.07,48,581.07,332.57
+Perth,Australia,APAC,Furniture,Standard Class,27967.56,395,2796.76,2040.89
+Perth,Australia,APAC,Furniture,Second Class,8063.66,114,806.37,588.43
+Perth,Australia,APAC,Furniture,First Class,5840.87,82,584.09,568.31
+Perth,Australia,APAC,Furniture,Same Day,2580.41,36,258.04,251.07
+Perth,Australia,APAC,Office Supplies,Standard Class,23188.94,327,2782.67,1692.18
+Perth,Australia,APAC,Office Supplies,Second Class,7146.27,101,857.55,521.49
+Perth,Australia,APAC,Office Supplies,First Class,6231.08,88,747.73,606.27
+Perth,Australia,APAC,Office Supplies,Same Day,2775.01,39,333.0,270.0
+Jakarta,Indonesia,APAC,Technology,Standard Class,50693.65,716,8617.92,3699.3
+Jakarta,Indonesia,APAC,Technology,Second Class,16989.28,240,2888.18,1239.77
+Jakarta,Indonesia,APAC,Technology,First Class,10465.79,148,1779.18,1018.3
+Jakarta,Indonesia,APAC,Technology,Same Day,4510.39,64,766.77,438.85
+Jakarta,Indonesia,APAC,Furniture,Standard Class,42942.54,606,4294.25,3133.67
+Jakarta,Indonesia,APAC,Furniture,Second Class,13963.18,197,1396.32,1018.94
+Jakarta,Indonesia,APAC,Furniture,First Class,11553.91,163,1155.39,1124.17
+Jakarta,Indonesia,APAC,Furniture,Same Day,4049.26,57,404.93,393.99
+Jakarta,Indonesia,APAC,Office Supplies,Standard Class,34525.74,487,4143.09,2519.47
+Jakarta,Indonesia,APAC,Office Supplies,Second Class,15247.05,215,1829.65,1112.63
+Jakarta,Indonesia,APAC,Office Supplies,First Class,9480.72,134,1137.69,922.46
+Jakarta,Indonesia,APAC,Office Supplies,Same Day,3601.86,51,432.22,350.45
+Bangkok,Thailand,APAC,Technology,Standard Class,36315.69,513,6173.67,2650.09
+Bangkok,Thailand,APAC,Technology,Second Class,10254.83,145,1743.32,748.33
+Bangkok,Thailand,APAC,Technology,First Class,8435.86,119,1434.1,820.79
+Bangkok,Thailand,APAC,Technology,Same Day,4099.78,58,696.96,398.9
+Bangkok,Thailand,APAC,Furniture,Standard Class,34987.97,494,3498.8,2553.2
+Bangkok,Thailand,APAC,Furniture,Second Class,11135.38,157,1113.54,812.59
+Bangkok,Thailand,APAC,Furniture,First Class,6833.91,96,683.39,664.93
+Bangkok,Thailand,APAC,Furniture,Same Day,3028.75,43,302.88,294.69
+Bangkok,Thailand,APAC,Office Supplies,Standard Class,25385.93,358,3046.31,1852.5
+Bangkok,Thailand,APAC,Office Supplies,Second Class,10167.97,144,1220.16,741.99
+Bangkok,Thailand,APAC,Office Supplies,First Class,6645.06,94,797.41,646.55
+Bangkok,Thailand,APAC,Office Supplies,Same Day,3056.41,43,366.77,297.38
+Shanghai,China,APAC,Technology,Standard Class,106917.89,1509,18176.04,7802.19
+Shanghai,China,APAC,Technology,Second Class,34437.91,486,5854.45,2513.06
+Shanghai,China,APAC,Technology,First Class,28747.97,406,4887.16,2797.12
+Shanghai,China,APAC,Technology,Same Day,12906.75,182,2194.15,1255.8
+Shanghai,China,APAC,Furniture,Standard Class,109644.02,1548,10964.4,8001.12
+Shanghai,China,APAC,Furniture,Second Class,36086.44,509,3608.64,2633.36
+Shanghai,China,APAC,Furniture,First Class,25345.56,358,2534.56,2466.08
+Shanghai,China,APAC,Furniture,Same Day,10628.99,150,1062.9,1034.18
+Shanghai,China,APAC,Office Supplies,Standard Class,81371.8,1149,9764.62,5937.99
+Shanghai,China,APAC,Office Supplies,Second Class,29702.41,419,3564.29,2167.49
+Shanghai,China,APAC,Office Supplies,First Class,19786.06,279,2374.33,1925.15
+Shanghai,China,APAC,Office Supplies,Same Day,7611.31,107,913.36,740.57
+Beijing,China,APAC,Technology,Standard Class,87926.07,1241,14947.43,6416.28
+Beijing,China,APAC,Technology,Second Class,31884.67,450,5420.39,2326.74
+Beijing,China,APAC,Technology,First Class,22174.12,313,3769.6,2157.5
+Beijing,China,APAC,Technology,Same Day,10834.86,153,1841.93,1054.21
+Beijing,China,APAC,Furniture,Standard Class,102485.7,1447,10248.57,7478.75
+Beijing,China,APAC,Furniture,Second Class,29571.15,417,2957.12,2157.91
+Beijing,China,APAC,Furniture,First Class,23790.33,336,2379.03,2314.75
+Beijing,China,APAC,Furniture,Same Day,10333.81,146,1033.38,1005.46
+Beijing,China,APAC,Office Supplies,Standard Class,91579.39,1293,10989.53,6682.88
+Beijing,China,APAC,Office Supplies,Second Class,25769.29,364,3092.32,1880.48
+Beijing,China,APAC,Office Supplies,First Class,17225.28,243,2067.03,1675.99
+Beijing,China,APAC,Office Supplies,Same Day,7397.69,104,887.72,719.78
+London,United Kingdom,EU,Technology,Standard Class,39572.73,559,6727.36,2887.76
+London,United Kingdom,EU,Technology,Second Class,13224.29,187,2248.13,965.02
+London,United Kingdom,EU,Technology,First Class,10535.96,149,1791.11,1025.13
+London,United Kingdom,EU,Technology,Same Day,4876.19,69,828.95,474.44
+London,United Kingdom,EU,Furniture,Standard Class,42222.33,596,4222.23,3081.12
+London,United Kingdom,EU,Furniture,Second Class,12691.27,179,1269.13,926.13
+London,United Kingdom,EU,Furniture,First Class,9349.18,132,934.92,909.66
+London,United Kingdom,EU,Furniture,Same Day,4175.35,59,417.54,406.25
+London,United Kingdom,EU,Office Supplies,Standard Class,29980.6,423,3597.67,2187.79
+London,United Kingdom,EU,Office Supplies,Second Class,11965.48,169,1435.86,873.16
+London,United Kingdom,EU,Office Supplies,First Class,8973.21,127,1076.79,873.08
+London,United Kingdom,EU,Office Supplies,Same Day,3714.69,52,445.76,361.43
+Paris,France,EU,Technology,Standard Class,33035.75,466,5616.08,2410.74
+Paris,France,EU,Technology,Second Class,10175.74,144,1729.88,742.56
+Paris,France,EU,Technology,First Class,6478.74,91,1101.39,630.37
+Paris,France,EU,Technology,Same Day,3339.52,47,567.72,324.93
+Paris,France,EU,Furniture,Standard Class,25683.43,363,2568.34,1874.21
+Paris,France,EU,Furniture,Second Class,9827.55,139,982.75,717.15
+Paris,France,EU,Furniture,First Class,7202.66,102,720.27,700.81
+Paris,France,EU,Furniture,Same Day,2619.71,37,261.97,254.89
+Paris,France,EU,Office Supplies,Standard Class,23458.89,331,2815.07,1711.88
+Paris,France,EU,Office Supplies,Second Class,9138.11,129,1096.57,666.84
+Paris,France,EU,Office Supplies,First Class,6021.01,85,722.52,585.83
+Paris,France,EU,Office Supplies,Same Day,2178.08,31,261.37,211.92
+Vienna,Austria,EU,Technology,Standard Class,27291.43,385,4639.54,1991.55
+Vienna,Austria,EU,Technology,Second Class,9171.24,129,1559.11,669.26
+Vienna,Austria,EU,Technology,First Class,8041.14,114,1366.99,782.39
+Vienna,Austria,EU,Technology,Same Day,3355.53,47,570.44,326.49
+Vienna,Austria,EU,Furniture,Standard Class,24171.7,341,2417.17,1763.9
+Vienna,Austria,EU,Furniture,Second Class,9897.01,140,989.7,722.22
+Vienna,Austria,EU,Furniture,First Class,7219.03,102,721.9,702.4
+Vienna,Austria,EU,Furniture,Same Day,2831.8,40,283.18,275.53
+Vienna,Austria,EU,Office Supplies,Standard Class,23089.18,326,2770.7,1684.9
+Vienna,Austria,EU,Office Supplies,Second Class,8175.65,115,981.08,596.61
+Vienna,Austria,EU,Office Supplies,First Class,5016.17,71,601.94,488.06
+Vienna,Austria,EU,Office Supplies,Same Day,2065.12,29,247.81,200.93
+Berlin,Germany,EU,Technology,Standard Class,116902.76,1650,19873.47,8530.82
+Berlin,Germany,EU,Technology,Second Class,35677.3,504,6065.14,2603.5
+Berlin,Germany,EU,Technology,First Class,24091.49,340,4095.55,2344.06
+Berlin,Germany,EU,Technology,Same Day,11575.76,163,1967.88,1126.3
+Berlin,Germany,EU,Furniture,Standard Class,88350.6,1247,8835.06,6447.26
+Berlin,Germany,EU,Furniture,Second Class,33397.76,471,3339.78,2437.16
+Berlin,Germany,EU,Furniture,First Class,23090.78,326,2309.08,2246.69
+Berlin,Germany,EU,Furniture,Same Day,8232.65,116,823.27,801.02
+Berlin,Germany,EU,Office Supplies,Standard Class,74581.02,1053,8949.72,5442.45
+Berlin,Germany,EU,Office Supplies,Second Class,25191.78,356,3023.01,1838.34
+Berlin,Germany,EU,Office Supplies,First Class,17338.53,245,2080.62,1687.01
+Berlin,Germany,EU,Office Supplies,Same Day,8266.97,117,992.04,804.36
+Lyon,France,EU,Technology,Standard Class,104541.56,1476,17772.06,7628.78
+Lyon,France,EU,Technology,Second Class,36646.03,517,6229.82,2674.19
+Lyon,France,EU,Technology,First Class,23381.16,330,3974.8,2274.94
+Lyon,France,EU,Technology,Same Day,12653.54,179,2151.1,1231.17
+Lyon,France,EU,Furniture,Standard Class,94805.2,1338,9480.52,6918.28
+Lyon,France,EU,Furniture,Second Class,32636.68,461,3263.67,2381.62
+Lyon,France,EU,Furniture,First Class,23714.58,335,2371.46,2307.38
+Lyon,France,EU,Furniture,Same Day,11118.1,157,1111.81,1081.77
+Lyon,France,EU,Office Supplies,Standard Class,86527.59,1221,10383.31,6314.23
+Lyon,France,EU,Office Supplies,Second Class,33248.67,469,3989.84,2426.28
+Lyon,France,EU,Office Supplies,First Class,20692.48,292,2483.1,2013.34
+Lyon,France,EU,Office Supplies,Same Day,8948.45,126,1073.81,870.67
+Mexico City,Mexico,LATAM,Technology,Standard Class,41261.91,582,7014.53,3011.03
+Mexico City,Mexico,LATAM,Technology,Second Class,11685.65,165,1986.56,852.74
+Mexico City,Mexico,LATAM,Technology,First Class,9388.63,133,1596.07,913.5
+Mexico City,Mexico,LATAM,Technology,Same Day,3707.78,52,630.32,360.76
+Mexico City,Mexico,LATAM,Furniture,Standard Class,30690.32,433,3069.03,2239.58
+Mexico City,Mexico,LATAM,Furniture,Second Class,13097.43,185,1309.74,955.77
+Mexico City,Mexico,LATAM,Furniture,First Class,7586.14,107,758.61,738.12
+Mexico City,Mexico,LATAM,Furniture,Same Day,3576.95,50,357.69,348.03
+Mexico City,Mexico,LATAM,Office Supplies,Standard Class,34409.61,486,4129.15,2510.99
+Mexico City,Mexico,LATAM,Office Supplies,Second Class,10926.06,154,1311.13,797.31
+Mexico City,Mexico,LATAM,Office Supplies,First Class,7128.19,101,855.38,693.56
+Mexico City,Mexico,LATAM,Office Supplies,Same Day,3240.95,46,388.91,315.34
+Managua,Nicaragua,LATAM,Technology,Standard Class,41654.46,588,7081.26,3039.68
+Managua,Nicaragua,LATAM,Technology,Second Class,14822.41,209,2519.81,1081.64
+Managua,Nicaragua,LATAM,Technology,First Class,8430.64,119,1433.21,820.29
+Managua,Nicaragua,LATAM,Technology,Same Day,4171.41,59,709.14,405.87
+Managua,Nicaragua,LATAM,Furniture,Standard Class,33335.71,471,3333.57,2432.63
+Managua,Nicaragua,LATAM,Furniture,Second Class,11214.39,158,1121.44,818.35
+Managua,Nicaragua,LATAM,Furniture,First Class,9100.29,128,910.03,885.44
+Managua,Nicaragua,LATAM,Furniture,Same Day,3613.97,51,361.4,351.63
+Managua,Nicaragua,LATAM,Office Supplies,Standard Class,32828.97,463,3939.48,2395.65
+Managua,Nicaragua,LATAM,Office Supplies,Second Class,11582.04,163,1389.84,845.18
+Managua,Nicaragua,LATAM,Office Supplies,First Class,8451.49,119,1014.18,822.31
+Managua,Nicaragua,LATAM,Office Supplies,Same Day,3168.33,45,380.2,308.27
+Santo Domingo,Dominican Republic,LATAM,Technology,Standard Class,39708.89,561,6750.51,2897.7
+Santo Domingo,Dominican Republic,LATAM,Technology,Second Class,12825.38,181,2180.32,935.91
+Santo Domingo,Dominican Republic,LATAM,Technology,First Class,8995.54,127,1529.24,875.25
+Santo Domingo,Dominican Republic,LATAM,Technology,Same Day,4063.31,57,690.76,395.35
+Santo Domingo,Dominican Republic,LATAM,Furniture,Standard Class,33319.45,470,3331.95,2431.44
+Santo Domingo,Dominican Republic,LATAM,Furniture,Second Class,11380.08,161,1138.01,830.45
+Santo Domingo,Dominican Republic,LATAM,Furniture,First Class,7835.33,111,783.53,762.36
+Santo Domingo,Dominican Republic,LATAM,Furniture,Same Day,3827.99,54,382.8,372.46
+Santo Domingo,Dominican Republic,LATAM,Office Supplies,Standard Class,32023.53,452,3842.82,2336.87
+Santo Domingo,Dominican Republic,LATAM,Office Supplies,Second Class,11210.32,158,1345.24,818.06
+Santo Domingo,Dominican Republic,LATAM,Office Supplies,First Class,7986.08,113,958.33,777.03
+Santo Domingo,Dominican Republic,LATAM,Office Supplies,Same Day,2803.82,40,336.46,272.81
+Sao Paulo,Brazil,LATAM,Technology,Standard Class,93835.15,1325,15951.98,6847.49
+Sao Paulo,Brazil,LATAM,Technology,Second Class,34816.17,491,5918.75,2540.66
+Sao Paulo,Brazil,LATAM,Technology,First Class,23704.91,335,4029.84,2306.44
+Sao Paulo,Brazil,LATAM,Technology,Same Day,8215.35,116,1396.61,799.34
+Sao Paulo,Brazil,LATAM,Furniture,Standard Class,71917.54,1015,7191.75,5248.08
+Sao Paulo,Brazil,LATAM,Furniture,Second Class,26572.59,375,2657.26,1939.1
+Sao Paulo,Brazil,LATAM,Furniture,First Class,16502.07,233,1650.21,1605.62
+Sao Paulo,Brazil,LATAM,Furniture,Same Day,7481.42,106,748.14,727.93
+Sao Paulo,Brazil,LATAM,Office Supplies,Standard Class,63234.7,893,7588.16,4614.46
+Sao Paulo,Brazil,LATAM,Office Supplies,Second Class,25403.1,359,3048.37,1853.76
+Sao Paulo,Brazil,LATAM,Office Supplies,First Class,18363.25,259,2203.59,1786.71
+Sao Paulo,Brazil,LATAM,Office Supplies,Same Day,8116.01,115,973.92,789.67
+Lagos,Nigeria,Africa,Technology,Standard Class,55088.2,778,9364.99,4019.99
+Lagos,Nigeria,Africa,Technology,Second Class,21814.75,308,3708.51,1591.9
+Lagos,Nigeria,Africa,Technology,First Class,15029.99,212,2555.1,1462.39
+Lagos,Nigeria,Africa,Technology,Same Day,5487.68,77,932.9,533.94
+Lagos,Nigeria,Africa,Furniture,Standard Class,60295.9,851,6029.59,4400.01
+Lagos,Nigeria,Africa,Furniture,Second Class,20556.79,290,2055.68,1500.1
+Lagos,Nigeria,Africa,Furniture,First Class,11558.06,163,1155.81,1124.58
+Lagos,Nigeria,Africa,Furniture,Same Day,6142.63,87,614.26,597.67
+Lagos,Nigeria,Africa,Office Supplies,Standard Class,46872.38,662,5624.69,3420.45
+Lagos,Nigeria,Africa,Office Supplies,Second Class,16054.44,227,1926.53,1171.55
+Lagos,Nigeria,Africa,Office Supplies,First Class,12939.13,183,1552.7,1258.95
+Lagos,Nigeria,Africa,Office Supplies,Same Day,5317.0,75,638.04,517.33
+Cairo,Egypt,EMEA,Technology,Standard Class,46014.69,650,7822.5,3357.86
+Cairo,Egypt,EMEA,Technology,Second Class,16721.35,236,2842.63,1220.22
+Cairo,Egypt,EMEA,Technology,First Class,12006.4,169,2041.09,1168.2
+Cairo,Egypt,EMEA,Technology,Same Day,4874.43,69,828.65,474.27
+Cairo,Egypt,EMEA,Furniture,Standard Class,40956.41,578,4095.64,2988.74
+Cairo,Egypt,EMEA,Furniture,Second Class,14205.51,201,1420.55,1036.63
+Cairo,Egypt,EMEA,Furniture,First Class,11217.26,158,1121.73,1091.42
+Cairo,Egypt,EMEA,Furniture,Same Day,3857.32,54,385.73,375.31
+Cairo,Egypt,EMEA,Office Supplies,Standard Class,40943.4,578,4913.21,2987.79
+Cairo,Egypt,EMEA,Office Supplies,Second Class,13190.14,186,1582.82,962.53
+Cairo,Egypt,EMEA,Office Supplies,First Class,8041.86,114,965.02,782.46
+Cairo,Egypt,EMEA,Office Supplies,Same Day,3825.34,54,459.04,372.2
+Istanbul,Turkey,EMEA,Technology,Standard Class,63744.41,900,10836.55,4651.66
+Istanbul,Turkey,EMEA,Technology,Second Class,20561.85,290,3495.51,1500.47
+Istanbul,Turkey,EMEA,Technology,First Class,12466.05,176,2119.23,1212.92
+Istanbul,Turkey,EMEA,Technology,Same Day,7040.33,99,1196.86,685.01
+Istanbul,Turkey,EMEA,Furniture,Standard Class,58763.1,830,5876.31,4288.16
+Istanbul,Turkey,EMEA,Furniture,Second Class,20579.24,290,2057.92,1501.74
+Istanbul,Turkey,EMEA,Furniture,First Class,11123.41,157,1112.34,1082.29
+Istanbul,Turkey,EMEA,Furniture,Same Day,5028.05,71,502.81,489.22
+Istanbul,Turkey,EMEA,Office Supplies,Standard Class,41670.1,588,5000.41,3040.82
+Istanbul,Turkey,EMEA,Office Supplies,Second Class,17464.94,247,2095.79,1274.48
+Istanbul,Turkey,EMEA,Office Supplies,First Class,10504.33,148,1260.52,1022.05
+Istanbul,Turkey,EMEA,Office Supplies,Same Day,4297.5,61,515.7,418.14
+Toronto,Canada,Canada,Technology,Standard Class,30013.0,424,5102.21,2190.16
+Toronto,Canada,Canada,Technology,Second Class,11507.51,162,1956.28,839.74
+Toronto,Canada,Canada,Technology,First Class,7856.42,111,1335.59,764.42
+Toronto,Canada,Canada,Technology,Same Day,2850.44,40,484.57,277.34
+Toronto,Canada,Canada,Furniture,Standard Class,24197.61,342,2419.76,1765.79
+Toronto,Canada,Canada,Furniture,Second Class,10147.58,143,1014.76,740.51
+Toronto,Canada,Canada,Furniture,First Class,6443.47,91,644.35,626.94
+Toronto,Canada,Canada,Furniture,Same Day,2866.81,40,286.68,278.94
+Toronto,Canada,Canada,Office Supplies,Standard Class,21196.75,299,2543.61,1546.8
+Toronto,Canada,Canada,Office Supplies,Second Class,6988.38,99,838.61,509.97
+Toronto,Canada,Canada,Office Supplies,First Class,5959.09,84,715.09,579.81
+Toronto,Canada,Canada,Office Supplies,Same Day,2363.24,33,283.59,229.94
